@@ -1,9 +1,9 @@
 # Pemrograman Berbasis Kerangka Kerja
 ## Tugas 2 - Offline First
    
-   - ### Hilmi Raditya       05111540000050
+   - ### Hilmi Raditya       05111640000164
    - ### Naufal Pranasetyo   05111540000057
-   - ### Muhammad Akram A.   05111640000164
+   - ### Muhammad Akram A.   05111540000050
    
    
 ## Cara Menjalankan:
