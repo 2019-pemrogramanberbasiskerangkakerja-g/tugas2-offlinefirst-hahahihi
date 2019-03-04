@@ -1,0 +1,14 @@
+extends ../layout/layout
+block content
+	br
+	!= messages('layout/message', locals)
+	h1 Login
+	form(method='POST', action='/login')
+		#form-group
+			label Username:
+			input.form-control(name='username', type='text')
+		#form-group
+			label Password:
+			input.form-control(name='password', type='password')
+		input.btn.btn-primary.mt-3(type='submit', value='submit')
+
