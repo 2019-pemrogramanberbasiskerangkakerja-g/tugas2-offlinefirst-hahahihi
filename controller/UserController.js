@@ -63,25 +63,24 @@ exports.register_action = function(req, res){
 };
 
 exports.login_form = function(req, res){
-	console.log('====== ISI DB LOKAL======');
+	console.log('ISI DATABASE');
 	var result = usersdb.chain().simplesort("name").data();
 	console.log(result);
-	console.log('====== ISI DB LOKAL BERHASIL ======');
 	res.render('user/user_login');
 };
 
 exports.login_action = function(req, res, next){
 	//validasi login
 
-	console.log(mongoose.connection.readyState);
+	// console.log(mongoose.connection.readyState);
 
 	var usernamedb = req.body['username'];
 	var passworddb = req.body['password'];
 	var result = usersdb.find({username:usernamedb});
 
-	console.log('=======LOGIN======');
+	console.log('LOGIN : ');
 	if(result[0] == null && mongoose.connection.readyState == 0){
-		console.log('hehe');
+		// console.log('hehe');
 		req.flash('danger', 'User not found');
 		res.redirect('/');		
 	}else if(result[0] != null && mongoose.connection.readyState == 0){
