@@ -4,7 +4,10 @@
    - ### Hilmi Raditya       05111640000164
    - ### Naufal Pranasetyo   05111540000057
    - ### Muhammad Akram A.   05111540000050
-   
+
+## Install
+1. MongoDB
+2. MongoDB Compass - GUI untuk melihat database
    
 ## Cara Menjalankan:
 1. Clone repositori ini, lalu buka terminal
@@ -14,4 +17,4 @@
 5. Buka browser dan ketik alamat `localhost:8000` untuk melihat hasilnya
 6. Hasilnya ialah seperti ini:
 
-![hasil](/Tugas%201%20-%20Hello%20World%20MVC//hasil.png)
+![hasil](/hasil.png)
