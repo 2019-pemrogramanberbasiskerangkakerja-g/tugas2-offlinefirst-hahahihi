@@ -2,8 +2,8 @@
 ## Tugas 2 - Offline First
    
    - **Hilmi Raditya       05111640000164**
-   - **Naufal Pranasetyo   05111540000057
-   - **Muhammad Akram A.   05111540000050
+   - **Naufal Pranasetyo   05111540000057**
+   - **Muhammad Akram A.   05111540000050**
 
 Database yang digunakan: 
 1. [MongoDB](https://www.mongodb.com/)
