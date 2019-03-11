@@ -6,7 +6,7 @@ var urlencodedParser = bodyParser.urlencoded({ extended: false });
 const port = 8000;
 
 const MongoClient_online = require('mongodb').MongoClient;
-const url_online = 'mongodb://10.151.63.101:27017';
+const url_online = 'mongodb://localhost:27017';
 const dbName_online = 'pbkk_online';
 const colName_online = 'users';
 
