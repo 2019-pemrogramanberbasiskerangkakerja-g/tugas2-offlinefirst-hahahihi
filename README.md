@@ -19,9 +19,11 @@ Database yang digunakan:
 1. Install NodeJS dan MongoDB
 2. Clone repository ini, lalu buka terminal
 3. Masuk ke folder dari repositori yang sudah di clone 
-4. Jalankan `npm install` untuk download dependencies 
-5. Jalankan `npm start` untuk memulai aplikasinya
-6. Buka browser dan ketik alamat `localhost:3000` untuk melihat hasilnya
-7. Hasilnya ialah seperti ini:
+4. Pada PC sebagai server, masuk ke folder `register` untuk menyimpan pada DB Pusat
+5. Pada PC lokal, masuk ke folder `login` untuk melakukan login melalui PC berbeda
+6. Jalankan `npm install` untuk download dependencies 
+7. Jalankan `npm start` untuk memulai aplikasinya di masing-masing PC
+8. Buka browser dan ketik alamat `localhost:8000` untuk melihat hasilnya. Berikut hasilnya:
 
-![hasil](/hasil.png)
+![hasil](/hasil1.png)
+![login](/hasil2.png)
