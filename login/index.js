@@ -134,7 +134,7 @@ function syncdatabase(){
                     });
                     db.close();
                 });
-                console.log('sukses sync ke db local');
+                console.log('sukses sync ke database local');
 
                 MongoClient_online.connect(url_online, function(err, db) {
                     if (err) throw err;
@@ -148,7 +148,7 @@ function syncdatabase(){
                     });
                     db.close();
                 });
-                console.log('sukses sync ke db online');
+                console.log('sukses sync ke database online');
             }
         });
     });
