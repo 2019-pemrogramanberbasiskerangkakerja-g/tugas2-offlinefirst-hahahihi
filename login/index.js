@@ -18,12 +18,12 @@ var unique = require('array-unique');
 // const colName_online = 'users';
 
 const MongoClient = require('mongodb').MongoClient;
-const url = 'mongodb://10.151.63.101:27017';
+const url = 'mongodb://localhost:27017';
 const dbName = 'pbkk_local';
 const colName = 'users';
 
 const MongoClient_online = require('mongodb').MongoClient;
-const url_online = 'mongodb://10.151.63.101:27017';
+const url_online = 'mongodb://localhost:27017'; // ganti IP Pusat
 const dbName_online = 'pbkk_online';
 const colName_online = 'users';
 
